@@ -213,18 +213,12 @@ const Register = () => {
               >
                 Password 
               </label>
-              <input
+             <input
                 id="password"
                 name="password"
                 type="password"
                 value={formData.password}
-                onChange={(e) => {
-                  const value = e.target.value;
-                  if (/^[0-9]{0,4}$/.test(value)) {
-                    handleChange(e);
-                  }
-                }}
-                maxLength={4}
+                 onChange={handleChange} 
                 placeholder="Enter your password"
                 className="w-full pl-4 pr-4 py-4 rounded-md outline-none"
                 style={{
