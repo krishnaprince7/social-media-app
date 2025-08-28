@@ -893,13 +893,13 @@ const Profile = () => {
                 <nav className="flex-1">
                   <ul className="space-y-2">
                     <li>
-                      <button
+                      {/* <button
                         className="flex items-center w-full p-3 rounded-lg hover:bg-white/10"
                         onClick={handleEditProfile}
                       >
                         <FiEdit3 className="mr-3" />
                         Edit Profile
-                      </button>
+                      </button> */}
                     </li>
                     <li>
                       <button
@@ -943,7 +943,7 @@ const Profile = () => {
             <h1 className="text-lg font-semibold">Profile</h1>
             {/* UPDATED: Added Edit Profile button in header */}
             <div className="flex items-center gap-2">
-              <button
+              {/* <button
                 onClick={handleEditProfile}
                 className="px-3 py-2 rounded-lg bg-gray-600 hover:bg-gray-500 shadow-md"
                 title="Edit Profile"
@@ -952,7 +952,7 @@ const Profile = () => {
                   <FiEdit3 size={18} className="stroke-2" />
                   <span className="text-sm hidden sm:inline">Edit</span>
                 </div>
-              </button>
+              </button> */}
               <button
                 onClick={() => setShowCreatePostModal(true)}
                 className="px-3 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 shadow-md shadow-blue-600/20"
